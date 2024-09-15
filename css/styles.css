@@ -138,6 +138,7 @@
   /* ========= /SOLUTION TITLE SECTION/ ========== */
 
   .solutions-section {
+    padding: 188px 0;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -145,15 +146,9 @@
     background: #2e2f42;
   }
 
-  .solution-container {
-    padding-top: 188px;
-    padding-bottom: 292px;
-    padding-left: 472px;
-    padding-right: 472px;
-  }
 
   .main-title {
-    max-width: 496px;
+    width: 496px;
     font-weight: 700;
       font-size: 56px;
       line-height: 1.07;
@@ -161,7 +156,7 @@
       justify-content: center;
       align-items: center;
       color: #fff;
-    margin-bottom: 48px;
+    margin: 0 auto 48px;
   }
 
 
@@ -234,11 +229,6 @@
     background-color: #FFFFFF;
 }
 
-.team-container {
-  max-width: 1440px;
-  height: 732px;
-  
-}
 
 .section-title {
   padding-top: 120px;
@@ -259,6 +249,7 @@
   flex-wrap: wrap;
   column-gap: 24px;
   justify-content: center;
+  padding-bottom: 120px;
   
 }
 
@@ -283,8 +274,6 @@ list-name-container {
   text-align: center;
   padding-top: 0;
   padding-bottom: 8px;
-  padding-left: 49px;
-  padding-right: 49px;
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -296,9 +285,6 @@ list-name-container {
 .team-list-position {
   text-align: center;
   white-space: nowrap;
-  padding-left: 52px;
-  padding-right: 52px;
-  padding-bottom: 0;
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
