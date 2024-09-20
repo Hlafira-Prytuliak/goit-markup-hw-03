@@ -188,9 +188,7 @@
 
   }
 
-  .features-container {
-    max-width: 1128px;
-  }
+
 
   .features-list {
     display: flex;
@@ -233,10 +231,6 @@
 
 .section-title {
   margin-bottom: 72px;
-  padding-top: 120px;
-  padding-bottom: 72px;
-  padding-left: auto;
-  padding-right: auto;
     font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -251,7 +245,6 @@
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
-  padding-bottom: 120px;
   
 }
 
@@ -290,8 +283,6 @@
 .portfolio-section {
   padding-top: 120px;
     padding-bottom: 120px;
-  margin-left: 156px;
-  margin-right: 156px;
 }
 
 .portfolio-list {
@@ -302,9 +293,6 @@
 }
 
 .portfolio-list-item {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 360px;
   width: calc((100% - 48px) / 3);
 }
 
@@ -356,7 +344,7 @@
 }
 
 .footer-text {
-  max-width: 264px
+  max-width: 264px;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
